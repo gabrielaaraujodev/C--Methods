@@ -1,0 +1,14 @@
+C:\Users\1499020\source\repos\Exercicio1\Exercicio3\bin\Debug\Exercicio3.exe.config
+C:\Users\1499020\source\repos\Exercicio1\Exercicio3\bin\Debug\Exercicio3.exe
+C:\Users\1499020\source\repos\Exercicio1\Exercicio3\bin\Debug\Exercicio3.pdb
+C:\Users\1499020\source\repos\Exercicio1\Exercicio3\obj\Debug\Exercicio3.csproj.AssemblyReference.cache
+C:\Users\1499020\source\repos\Exercicio1\Exercicio3\obj\Debug\Exercicio3.csproj.CoreCompileInputs.cache
+C:\Users\1499020\source\repos\Exercicio1\Exercicio3\obj\Debug\Exercicio3.exe
+C:\Users\1499020\source\repos\Exercicio1\Exercicio3\obj\Debug\Exercicio3.pdb
+C:\Users\Gabriel Araujo\Downloads\wetransfer_exercicio1_2024-05-17_2355\Exercicio1\Exercicio3\bin\Debug\Exercicio3.exe.config
+C:\Users\Gabriel Araujo\Downloads\wetransfer_exercicio1_2024-05-17_2355\Exercicio1\Exercicio3\bin\Debug\Exercicio3.exe
+C:\Users\Gabriel Araujo\Downloads\wetransfer_exercicio1_2024-05-17_2355\Exercicio1\Exercicio3\bin\Debug\Exercicio3.pdb
+C:\Users\Gabriel Araujo\Downloads\wetransfer_exercicio1_2024-05-17_2355\Exercicio1\Exercicio3\obj\Debug\Exercicio3.csproj.AssemblyReference.cache
+C:\Users\Gabriel Araujo\Downloads\wetransfer_exercicio1_2024-05-17_2355\Exercicio1\Exercicio3\obj\Debug\Exercicio3.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Araujo\Downloads\wetransfer_exercicio1_2024-05-17_2355\Exercicio1\Exercicio3\obj\Debug\Exercicio3.exe
+C:\Users\Gabriel Araujo\Downloads\wetransfer_exercicio1_2024-05-17_2355\Exercicio1\Exercicio3\obj\Debug\Exercicio3.pdb
