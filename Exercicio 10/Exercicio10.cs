@@ -8,25 +8,62 @@ namespace Exercicio_10
 {
     internal class Exercicio10
     {
-        static void Main(string[] args)
+        static void LerMatriculas(int[] turma)
         {
-            int[] matriculaAlunosAtp = new int[5];
-            int[] matriculaAlunosDiw = new int[10];
-            Random random = new Random();
+            for (int i = 0; i < turma.Length; i++)
+            {
+                Console.Write($"Matrícula {i + 1}: ");
+                turma[i] = Convert.ToInt32(Console.ReadLine());
+            }
+        }
 
-            for (int i = 0; i < matriculaAlunosAtp.Length; i++) {
-                matriculaAlunosAtp[i] = random.Next(1, 11);
+        static int[] EncontrarMatriculasComuns(int[] turma1, int[] turma2)
+        {
 
-                for (int j = 1; j < matriculaAlunosAtp.Length; j++) {
-                    if (matriculaAlunosAtp[i] == matriculaAlunosAtp[j]) {
-                        matriculaAlunosAtp[j] = random.Next(1, 11); ;
-                    }
+            int[] comuns = new int[10];
+            int indice = 0;
+
+            foreach (int matricula in turma1)
+            {
+                if (Array.BinarySearch(turma2, matricula) >= 0)
+                {
+                    comuns[indice] = matricula;
+                    indice++;
                 }
             }
 
-            foreach (int i in matriculaAlunosAtp)
+            return comuns;
+        }
+
+
+        static void Main(string[] args)
+        {
+            int[] turma1 = new int[10];
+            int[] turma2 = new int[10];
+
+            Console.WriteLine("Insira as matrículas dos alunos da turma 1:");
+            LerMatriculas(turma1);
+
+            Console.WriteLine("Insira as matrículas dos alunos da turma 2:");
+            LerMatriculas(turma2);
+
+            int[] matriculasComuns = EncontrarMatriculasComuns(turma1, turma2);
+
+            if (matriculasComuns.Length > 0)
             {
-                Console.Write(i + " ");
+                Console.WriteLine("Alunos matriculados simultaneamente nas duas turmas:");
+                foreach (int matricula in matriculasComuns)
+                {
+                    if(matricula != 0)
+                    {
+                    Console.WriteLine(matricula);
+
+                    } 
+                }
+            }
+            else
+            {
+                Console.WriteLine("Não existem alunos matriculados simultaneamente nas duas turmas.");
             }
 
             Console.ReadLine();
